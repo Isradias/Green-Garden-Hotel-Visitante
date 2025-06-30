@@ -12,10 +12,10 @@
     background-color: #023d54;
     border: none;
     border-radius: 50px;
-    font-size: 40px;
+    font-size: 2.5vw;
     color: #adfa5d;
-    width: 50rem;
-    height: 60px;
+    width: 40vw;
+    height: 3vw;
     justify-self: center;
 }
 
@@ -36,16 +36,12 @@
     font-size: 18px;
 }
 
-/* .container p:nth-of-type(2) {
-    text-align: end;
-} */
-
 .listaBotoes{
     display: flex;
     flex-direction: column;
     width: min-content;
     justify-self: center;
-    gap: 30px;
+    gap: 15px;
     margin-top: 20px;
 }
 

@@ -1,9 +1,10 @@
 import styles from './Header.module.css'
+import Link from './Scroll.js';
+// import { Link } from 'react-router-dom';
 
 function Header (){
     return(
         <div className={styles.headerContainer}>
-            <div></div>
             <div className={styles.container1}>
                 <div className={styles.titulos}>
                     <h1 className={styles.tituloPrincipal}>HOTEL</h1>
@@ -11,17 +12,17 @@ function Header (){
                 </div>
                 <img src="/images/favicon.png" alt="logo"/>
             </div>
-            <button className={styles.buttonReservas}>RESERVAS</button>
+            <Link to = {'/reservas'}><button className={styles.buttonReservas}>RESERVAS</button></Link>
             <hr className={styles.linha} />
             <div className={styles.buttonsNav}>
-                <button>HOTEL</button>
-                <button>QUARTOS</button>
-                <button>GASTRONOMIA</button>
-                <button>ATRAÇÕES</button>
-                <button>LOCALIDADES</button>
-                <button>CORPORATIVO</button>
-                <button>OFERTAS</button>
-                <button>CONTATO</button>
+                <Link to = {'/'}><button>HOTEL</button></Link>
+                <Link to = {'/quartos'}><button>QUARTOS</button></Link>
+                <Link to = {'/gastronomia'}><button>GASTRONOMIA</button></Link>
+                <Link to = {'/atracoes'}><button>ATRAÇÕES</button></Link>
+                <Link to = {'/localidades'}><button>LOCALIDADES</button></Link>
+                <Link to = {'/corporativo'}><button>CORPORATIVO</button></Link>
+                <Link to = {'/ofertas'}><button>OFERTAS</button></Link>
+                <Link to = {'/contato'}><button>CONTATO</button></Link>
             </div>
         </div>
     )

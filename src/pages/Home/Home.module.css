@@ -1,25 +1,7 @@
-.videoHome{
-    width: 100%;
-    object-fit: cover;
-    scale: 1;
-    height: 700px;
-    border-radius: 0 0 30px 30px;
-}
-
-.bemVindos{
-    font-size: 80px;
-    position: relative;
-    top: -500px;
-    color: chartreuse;
-    margin: 0;
-}
-
 .conteudoHome{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 10%;
-    position: relative;
-    top: -96px;
 }
 
 .texto{

@@ -1,4 +1,5 @@
 import styles from './Footer.module.css'
+import Scroll from './Scroll.js';
 
 function Footer (){
     return(
@@ -9,12 +10,14 @@ function Footer (){
             <h2>CONTATO</h2>
             <p>Nossa rede nasceu do sonho de unir hospitalidade e natureza em sua forma mais autêntica. Tudo começou com uma antiga fazenda de família, transformada em um refúgio acolhedor para quem buscava paz e conexão com o meio ambiente. Com o tempo, expandimos para outros cantos do Brasil, sempre respeitando a cultura local e preservando o que a natureza tem de mais valioso: sua essência.</p>
             <div className={styles.listaBotoes}>
-                <button>HOTEL</button>
-                <button>GASTRONOMIA</button>
-                <button>ATRAÇÕES</button>
-                <button>QUARTOS</button>
-                <button>OFERTAS</button>
-                <button>CORPORATIVO</button>
+                <Scroll to = {'/'} ><button>HOTEL</button></Scroll>
+                <Scroll to = {'quartos'}><button>QUARTOS</button></Scroll>
+                <Scroll to = {'/gastronomia'} ><button>GASTRONOMIA</button></Scroll>
+                <Scroll to = {'/atracoes'} ><button>ATRAÇÕES</button></Scroll>
+                <Scroll to = {'/localidades'} ><button>LOCALIDADES</button></Scroll>
+                <Scroll to = {'/corporativo'} ><button>CORPORATIVO</button></Scroll>
+                <Scroll to = {'/ofertas'} ><button>OFERTAS</button></Scroll>
+                <Scroll to = {'/contato'} ><button>CONTATO</button></Scroll>
             </div>
             <p> Hotel Floresta Viva – Albazônia <br />
                 Rodovia Verdejante, km 12 – Zona de Conservação Natural<br />
@@ -39,10 +42,10 @@ function Footer (){
             </p>
             <div className={styles.redesSociais}>
                 <button><i className="fi fi-brands-instagram"></i></button>
-                <button><i class="fi fi-brands-facebook"></i></button>
-                <button><i class="fi fi-brands-whatsapp"></i></button>
-                <button><i class="fi fi-brands-linkedin"></i></button>
-                <button><i class="fi fi-brands-twitter"></i></button>
+                <button><i className="fi fi-brands-facebook"></i></button>
+                <button><i className="fi fi-brands-whatsapp"></i></button>
+                <button><i className="fi fi-brands-linkedin"></i></button>
+                <button><i className="fi fi-brands-twitter"></i></button>
             </div>
 
         </div>
