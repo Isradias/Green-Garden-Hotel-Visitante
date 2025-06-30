@@ -1,0 +1,87 @@
+.headerContainer {
+    background-color: #038546;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.titulos {
+    justify-items: start;
+}
+
+.container1{
+    display: flex;
+    justify-self: center;
+}
+
+.headerContainer h1{
+    font-size: 20px;
+    margin: 0;
+    position: relative;
+    bottom: -0.5rem;
+    /* background-color: red; */
+}
+
+.headerContainer h2{
+    font-size: 50px;
+    margin: 0;
+    /* background-color: yellow; */
+}
+
+.headerContainer img{
+    width: 100px;
+    height: fit-content;
+}
+
+.buttonReservas{
+    background-color: #e4bd22;
+    height: 40px;
+    justify-self: end;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.buttonReservas:hover{
+    background-color: #b3941a;
+    scale: 1.05;
+    transition: background-color 0.3s ease;
+}
+
+.linha {
+    border: none;
+    height: 1.25px;
+    margin: 0 3.5rem 10px ;
+    grid-column: span 3;
+    background: linear-gradient(to right, transparent, #d3d3d3 40%, #d3d3d3 60%, transparent);
+    box-shadow: 0 6px 12px #d3d3d3;
+    border-radius: 10px;
+}
+
+.buttonsNav{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    grid-column: span 3;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.buttonsNav button {
+  background-color: #adfa5d; /* a cor que você quiser */
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0.3rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buttonsNav button:hover {
+  background-color: #026e3a; /* cor mais escura no hover */
+}

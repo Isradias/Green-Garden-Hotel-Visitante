@@ -1,0 +1,93 @@
+.container{
+    background-color: #038546;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem 5rem 0 5rem;
+}
+
+.reserveAgora{
+    grid-column: span 3;
+    cursor: pointer;
+    background-color: #023d54;
+    border: none;
+    border-radius: 50px;
+    font-size: 40px;
+    color: #adfa5d;
+    width: 50rem;
+    height: 60px;
+    justify-self: center;
+}
+
+.container h2{
+    font-size: 30px;
+    align-self: flex-end;
+}
+
+.container h2 img{
+    width: 40px;
+    height: fit-content;
+    position: relative;
+    top: 8px;
+}
+
+.container p{
+    text-align: start;
+    font-size: 18px;
+}
+
+/* .container p:nth-of-type(2) {
+    text-align: end;
+} */
+
+.listaBotoes{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    justify-self: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.listaBotoes button{
+    color: #adfa5d;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.listaBotoes button:hover{
+    color: #7eb444;
+}
+
+.redesSociais{
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -100px;
+    background-color: transparent;
+    height: 85px;
+    margin-right: 10rem;
+}
+
+.redesSociais button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.redesSociais button:hover{
+    scale: 1.05;
+}
+
+.redesSociais i {
+    font-size: 80px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.redesSociais i:hover{
+    color: rgb(194, 194, 194);
+}
