@@ -1,10 +1,15 @@
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom"
 import Home from './pages/Home/Home.js'
 import Header from './components/Header.js'
 import Footer from './components/Footer.js'
-import Quartos from "./pages/Quartos/Quartos.js";
+import Quartos from './pages/Quartos/Quartos.js'
+import Gastronomia from './pages/Gatronomia/Gastronomia.js'
+import Atracoes from './pages/Atracoes/Atracoes.js'
+import Localidades from './pages/Localidades/Localidades.js'
+import Contato from './pages/Contato/Contato.js'
+import Sucesso from './pages/Contato/FeedbackForms/FeedbackForms.js'
 
-import Manutencao from "./pages/Manutencao/Manutencao.js";
+import Manutencao from './pages/Manutencao/Manutencao.js';
 
 function App() {
   return (
@@ -13,13 +18,14 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/quartos' element={<Quartos/>} />
-        <Route path='/gastronomia' element={<Manutencao />} />
-        <Route path='/atracoes' element={<Manutencao />} />
-        <Route path='/localidades' element={<Manutencao />} />
+        <Route path='/gastronomia' element={<Gastronomia />} />
+        <Route path='/atracoes' element={<Atracoes />} />
+        <Route path='/localidades' element={<Localidades />} />
         <Route path='/corporativo' element={<Manutencao />} />
         <Route path='/ofertas' element={<Manutencao />} />
-        <Route path='/contato' element={<Manutencao />} />
+        <Route path='/contato' element={<Contato />} />
         <Route path='/reservas' element={<Manutencao />} />
+        <Route path='/sucesso' element={<Sucesso />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>

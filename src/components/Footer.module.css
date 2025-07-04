@@ -8,6 +8,8 @@
 
 .reserveAgora{
     grid-column: span 3;
+}
+.reserveAgora button{
     cursor: pointer;
     background-color: #023d54;
     border: none;

@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8% 0;
+}
+
+.container i{
+    font-size: 10rem;
+    color: #adfa5d;
+}
+
+.container h1{
+    font-size: 2vw;
+    margin: 0;
+}
+
+.container p{
+    font-size: 1vw;
+}
+
+.container button{
+    height: 40px;
+    width: 10vw;
+    border-radius: 18px;
+    background-color: #adfa5d;
+    border: none;
+    margin-top: 40px;
+    font-size: 0.8vw;
+    cursor: pointer;
+}

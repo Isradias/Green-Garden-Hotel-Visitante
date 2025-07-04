@@ -4,7 +4,9 @@ import Scroll from './Scroll.js';
 function Footer (){
     return(
         <div className={styles.container}>
-            <button className={styles.reserveAgora}>RESERVE AGORA</button>
+            <div className={styles.reserveAgora}>
+                <Scroll to = {'/reservas'}><button>RESERVE AGORA</button></Scroll>
+            </div>
             <h2><img src="images/favicon.png" alt="logo" />GG</h2>
             <h2>MAPA DO SITE</h2>
             <h2>CONTATO</h2>

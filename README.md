@@ -5,7 +5,7 @@ Este projeto é um site desenvolvido com React como parte de um trabalho acadêm
 ## 📌 Funcionalidades
 
 - Simulação de sistema de reservas
-- Página de contato com formulário
+- Página de contato com formulário (Feito)
 - Navegação dinâmica com React Router (Feito)
 - Design responsivo para dispositivos móveis
 

@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10%;
+}
+
+.texto{
+    margin: 3%;
+    text-align: justify;
+}
+
+.texto h2{
+    font-size: 2.5vw;
+}
+
+.texto p{
+    font-size: 1.2vw;
+}
+
+.container img{
+    width: 100%;
+    border-radius: 40px;
+}

@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10%;
+    gap: 3%;
+}
+
+.texto{
+    text-align: justify;
+}
+
+.texto h2{
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+.texto p{
+    font-size: 1.2vw;
+}
+
+.container img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.containerImages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+}
+
+.containerImages img:nth-child(3){
+    grid-column: span 2;
+}
