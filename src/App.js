@@ -6,6 +6,7 @@ import Quartos from './pages/Quartos/Quartos.js'
 import Gastronomia from './pages/Gatronomia/Gastronomia.js'
 import Atracoes from './pages/Atracoes/Atracoes.js'
 import Localidades from './pages/Localidades/Localidades.js'
+import Corporativo from "./pages/Corporativo/Corporativo.js"
 import Contato from './pages/Contato/Contato.js'
 import Sucesso from './pages/Contato/FeedbackForms/FeedbackForms.js'
 
@@ -21,7 +22,7 @@ function App() {
         <Route path='/gastronomia' element={<Gastronomia />} />
         <Route path='/atracoes' element={<Atracoes />} />
         <Route path='/localidades' element={<Localidades />} />
-        <Route path='/corporativo' element={<Manutencao />} />
+        <Route path='/corporativo' element={<Corporativo />} />
         <Route path='/ofertas' element={<Manutencao />} />
         <Route path='/contato' element={<Contato />} />
         <Route path='/reservas' element={<Manutencao />} />
