@@ -9,6 +9,7 @@ import Localidades from './pages/Localidades/Localidades.js'
 import Corporativo from "./pages/Corporativo/Corporativo.js"
 import Contato from './pages/Contato/Contato.js'
 import Sucesso from './pages/Contato/FeedbackForms/FeedbackForms.js'
+import Reservas from './pages/Reservas/Reservas.js'
 
 import Manutencao from './pages/Manutencao/Manutencao.js';
 
@@ -25,7 +26,7 @@ function App() {
         <Route path='/corporativo' element={<Corporativo />} />
         <Route path='/ofertas' element={<Manutencao />} />
         <Route path='/contato' element={<Contato />} />
-        <Route path='/reservas' element={<Manutencao />} />
+        <Route path='/reservas' element={<Reservas />} />
         <Route path='/sucesso' element={<Sucesso />}></Route>
       </Routes>
       <Footer />
