@@ -15,7 +15,7 @@ import Manutencao from './pages/Manutencao/Manutencao.js';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>} />
@@ -30,7 +30,7 @@ function App() {
         <Route path='/sucesso' element={<Sucesso />}></Route>
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

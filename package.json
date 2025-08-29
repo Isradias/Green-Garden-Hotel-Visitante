@@ -2,6 +2,7 @@
   "name": "meu-projeto",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://isradias.github.io/Green-Garden-Hotel-Visitante",
   "dependencies": {
     "@flaticon/flaticon-uicons": "^3.3.1",
     "@testing-library/dom": "^10.4.0",
