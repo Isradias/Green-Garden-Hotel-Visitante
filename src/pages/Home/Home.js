@@ -4,7 +4,7 @@ function Home () {
     return(
         <div>
             <div className={styles.container}>
-                <Video src='/videos/hotel_home.mp4' titulo='BEM-VINDOS'/>
+                <Video src={`${process.env.PUBLIC_URL}/videos/hotel_home.mp4`} titulo='BEM-VINDOS'/>
                 <div className={styles.conteudoHome}>
                     <div className={styles.texto}>
                         <h2>Viva a essência da natureza com todo o conforto que você merece...</h2>
@@ -17,7 +17,7 @@ function Home () {
                             promovendo momentos inesquecíveis em meio à natureza.
                         </p>
                     </div>
-                    <img src='/images/homePromotional.jpg' className={styles.imageHomePromotional}/>
+                    <img src={`${process.env.PUBLIC_URL}/images/homePromotional.jpg`} className={styles.imageHomePromotional}/>
                 </div>
             </div>
         </div>
