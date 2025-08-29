@@ -4,7 +4,7 @@ import Video from '../../components/VideoPlayer.js'
 function Corporativo (){
     return(
         <div>
-            <Video src={'/videos/hotel_corporativo.mp4'} titulo={'CORPORATIVO'}></Video>
+            <Video src={`${process.env.PUBLIC_URL}/videos/hotel_corporativo.mp4`} titulo={'CORPORATIVO'}></Video>
             <div className={styles.container}>
                 <h1>Ambiente Corporativo</h1>
                 <p>
@@ -25,8 +25,8 @@ function Corporativo (){
                 
                 </p>
                 <div className={styles.imgContainer}>
-                    <img src="/images/Corporativo/corporativo (1).jpg" alt="corporativo (1)" />
-                    <img src="/images/Corporativo/corporativo (2).jpg" alt="corporativo (2)" />
+                    <img src={`${process.env.PUBLIC_URL}/images/Corporativo/corporativo (1).jpg`} alt="corporativo (1)" />
+                    <img src={`${process.env.PUBLIC_URL}/images/Corporativo/corporativo (2).jpg`} alt="corporativo (2)" />
                 </div>
             </div>
         </div>

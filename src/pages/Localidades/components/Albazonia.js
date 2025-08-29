@@ -20,9 +20,9 @@ function Albazonia() {
             meditação guiada com instrutores especializados.
           </p>
           <div className={styles.imgCaverna}>
-            <img src="/images/Localidades/cave (1).jpg" alt="cave1" />
-            <img src="/images/Localidades/cave (2).jpg" alt="cave2" />
-            <img src="/images/Localidades/cave (3).jpg" alt="cave3" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/cave (2).jpg`} alt="cave2" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/cave (3).jpg`} alt="cave3" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/cave (1).jpg`} alt="cave1" />
           </div>
         </div>
         
@@ -40,9 +40,9 @@ function Albazonia() {
             beija-flor-de-topete-azul e o colibri-estrela.
           </p>
           <div className={styles.imgMirante}>
-            <img src="/images/Localidades/mirante (1).jpg" alt="mirante (1)" />
-            <img src="/images/Localidades/mirante (2).jpg" alt="mirante (2)" />
-            <img src="/images/Localidades/mirante (3).jpg" alt="mirante (3)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/mirante (1).jpg`} alt="mirante (1)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/mirante (2).jpg`} alt="mirante (2)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/mirante (3).jpg`} alt="mirante (3)" />
           </div>
         </div>
 
@@ -61,8 +61,8 @@ function Albazonia() {
             com produtos orgânicos da região.
           </p>
           <div className={styles.imgJardim}>
-            <img src="/images/localidades/jardim (1).jpg" alt="jardim (1)" />
-            <img src="/images/localidades/jardim (2).jpg" alt="jardim (2)" />
+            <img src={`${process.env.PUBLIC_URL}/images/localidades/jardim (1).jpg`} alt="jardim (1)" />
+            <img src={`${process.env.PUBLIC_URL}/images/localidades/jardim (2).jpg`} alt="jardim (2)" />
           </div>
         </div>
 

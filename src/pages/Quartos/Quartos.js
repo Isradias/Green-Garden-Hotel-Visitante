@@ -4,13 +4,13 @@ import styles from './Quartos.module.css'
 function Quartos (){
     return(
         <div>
-            <VideoPlayer src={'/videos/hotel_quartos.mp4'} titulo={'QUARTOS'}/>
+            <VideoPlayer src={`${process.env.PUBLIC_URL}/videos/hotel_quartos.mp4`} titulo={'QUARTOS'}/>
             <div className={styles.container1}>
                 <h2 className={styles.conheca}>Conheça nossos quartos</h2>
                 <div className={styles.container2}>
                     <div className={styles.quarto}>
                         <h1>Suíte Master Jardim</h1>
-                        <img src="/images/Quartos/master.jpg" alt="jardim" />
+                        <img src={`${process.env.PUBLIC_URL}/images/Quartos/master.jpg`} alt="jardim" />
                         <p>
                         A Suíte Master Jardim oferece um ambiente exclusivo e sofisticado,
                         com uma ampla varanda privativa que proporciona uma vista panorâmica.
@@ -27,11 +27,11 @@ function Quartos (){
                         espaço para todos, além de uma copa equipada com frigobar e um banheiro espaçoso, 
                         ideal para famílias que buscam uma estadia harmoniosa e conectada à natureza.
                         </p>
-                        <img src="/images/Quartos/familia.jpg" alt="familia" />
+                        <img src={`${process.env.PUBLIC_URL}/images/Quartos/familia.jpg`} alt="familia" />
                     </div>
                     <div className={styles.quarto}>
                         <h1>Quarto Conforto Duplo</h1>
-                        <img src="/images/Quartos/conforto.jpg" alt="conforto" />
+                        <img src={`${process.env.PUBLIC_URL}/images/Quartos/conforto.jpg`} alt="conforto" />
                         <p>
                         O Quarto Conforto Duplo oferece um ambiente acolhedor e funcional, ideal para amigos 
                         ou famílias pequenas. Conta com duas camas de solteiro, iluminação suave que cria uma 
@@ -46,7 +46,7 @@ function Quartos (){
                         a dois. Com lareira ecológica, cama king-size e isolamento acústico, proporciona conforto, 
                         aconchego e uma atmosfera tranquila, ideal para uma experiência inesquecível em meio à natureza.
                         </p>
-                        <img src="/images/Quartos/chale.jpg" alt="chale" />
+                        <img src={`${process.env.PUBLIC_URL}/images/Quartos/chale.jpg`} alt="chale" />
                     </div>
                 </div>
             </div>

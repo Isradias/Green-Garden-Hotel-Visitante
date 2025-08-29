@@ -4,7 +4,7 @@ import Video from '../../components/VideoPlayer'
 function Atracoes () {
     return (
         <div>
-            <Video src= '/videos/hotel_atracoes.mp4' titulo= 'ATRAÇÕES'></Video>
+            <Video src= {`${process.env.PUBLIC_URL}/videos/hotel_atracoes.mp4`} titulo= 'ATRAÇÕES'></Video>
             <div className={styles.container}>
                 <div className={styles.texto}>
                     <h2>Atrações Green Garden</h2>
@@ -23,9 +23,9 @@ function Atracoes () {
                     </p>
                 </div>
                 <div className={styles.containerImages}>
-                    <img src='/images/Atracoes/atracao3.jpg' alt='' />
-                    <img src='/images/Atracoes/atracao2.jpg' alt='' />
-                    <img src='/images/Atracoes/atracao1.jpg' alt='' />
+                    <img src={`${process.env.PUBLIC_URL}/images/Atracoes/atracao3.jpg`} alt='' />
+                    <img src={`${process.env.PUBLIC_URL}/images/Atracoes/atracao2.jpg`} alt='' />
+                    <img src={`${process.env.PUBLIC_URL}/images/Atracoes/atracao1.jpg`} alt='' />
                 </div>
             </div>
         </div>

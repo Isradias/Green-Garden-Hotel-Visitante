@@ -7,7 +7,7 @@ function Footer (){
             <div className={styles.reserveAgora}>
                 <Scroll to = {'/reservas'}><button>RESERVE AGORA</button></Scroll>
             </div>
-            <h2><img src="images/favicon.png" alt="logo" />GG</h2>
+            <h2><img src={`${process.env.PUBLIC_URL}images/favicon.png`} alt="logo" />GG</h2>
             <h2>MAPA DO SITE</h2>
             <h2>CONTATO</h2>
             <p>Nossa rede nasceu do sonho de unir hospitalidade e natureza em sua forma mais autêntica. Tudo começou com uma antiga fazenda de família, transformada em um refúgio acolhedor para quem buscava paz e conexão com o meio ambiente. Com o tempo, expandimos para outros cantos do Brasil, sempre respeitando a cultura local e preservando o que a natureza tem de mais valioso: sua essência.</p>

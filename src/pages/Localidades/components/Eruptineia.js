@@ -20,9 +20,9 @@ function Eruptineia() {
             das palmeiras e seus espíritos guardiões.
           </p>
           <div className={styles.imgSantuario}>
-            <img src="/images/Localidades/palmeiral (1).jpg" alt="palmeiral (1)" />
-            <img src="/images/Localidades/palmeiral (2).jpg" alt="palmeiral (2)" />
-            <img src="/images/Localidades/palmeiral (3).jpg" alt="palmeiral (3)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/palmeiral (1).jpg`} alt="palmeiral (1)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/palmeiral (2).jpg`} alt="palmeiral (2)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/palmeiral (3).jpg`} alt="palmeiral (3)" />
           </div>
         </div>
         
@@ -39,9 +39,9 @@ function Eruptineia() {
             tradicionais e degustação de comidas típicas como bolo de milho verde e chá de ervas do campo.
           </p>
           <div className={styles.imgMuseu}>
-            <img src="/images/Localidades/museu (1).jpg" alt="museu (1)" />
-            <img src="/images/Localidades/museu (2).jpg" alt="museu (2)" />
-            <img src="/images/Localidades/museu (3).jpg" alt="museu (3)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/museu (1).jpg" alt="museu (1)`} />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/museu (2).jpg" alt="museu (2)`} />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/museu (3).jpg" alt="museu (3)`} />
           </div>
         </div>
 
@@ -57,8 +57,8 @@ function Eruptineia() {
             biodegradáveis são lançadas na lagoa ao anoitecer, criando um espetáculo mágico.
           </p>
           <div className={styles.imgLagoa}>
-            <img src="/images/localidades/lagoa (1).jpg" alt="lagoa (1)" />
-            <img src="/images/localidades/lagoa (2).jpg" alt="lagoa (2)" />
+            <img src={`${process.env.PUBLIC_URL}/images/localidades/lagoa (1).jpg`} alt="lagoa (1)" />
+            <img src={`${process.env.PUBLIC_URL}/images/localidades/lagoa (2).jpg`} alt="lagoa (2)" />
           </div>
         </div>
 

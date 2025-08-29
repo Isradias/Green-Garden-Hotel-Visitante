@@ -10,7 +10,7 @@ function Header (){
                     <h1 className={styles.tituloPrincipal}>HOTEL</h1>
                     <h2 className={styles.subtitulo}>GREEN GARDEN</h2>
                 </div>
-                <img src="/images/favicon.png" alt="logo"/>
+                <img src={`${process.env.PUBLIC_URL}/images/favicon.png`} alt="logo"/>
             </div>
             <Link to = {'/reservas'}><button className={styles.buttonReservas}>RESERVAS</button></Link>
             <hr className={styles.linha} />

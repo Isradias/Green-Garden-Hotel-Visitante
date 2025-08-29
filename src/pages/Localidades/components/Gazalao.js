@@ -18,9 +18,9 @@ function Gazalao() {
             livre e observação de borboletas e libélulas.
           </p>
           <div className={styles.imgVale}>
-            <img src="/images/Localidades/vale (1).png" alt="vale1" />
-            <img src="/images/Localidades/vale (2).png" alt="vale2" />
-            <img src="/images/Localidades/vale (3).png" alt="vale3" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/vale (1).png`} alt="vale1" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/vale (2).png`} alt="vale2" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/vale (3).png`} alt="vale3" />
           </div>
         </div>
         
@@ -36,9 +36,9 @@ function Gazalao() {
             enquanto peregrinos deixam mensagens e objetos simbólicos nas margens da nascente.
           </p>
           <div className={styles.imgFonte}>
-            <img src="/images/Localidades/fonte (1).jpg" alt="fonte (1)" />
-            <img src="/images/Localidades/fonte (2).jpg" alt="fonte (2)" />
-            <img src="/images/Localidades/fonte (3).jpg" alt="fonte (3)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/fonte (1).jpg`} alt="fonte (1)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/fonte (2).jpg`} alt="fonte (2)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/fonte (3).jpg`} alt="fonte (3)" />
           </div>
         </div>
 
@@ -54,8 +54,8 @@ function Gazalao() {
             crianças e turistas curiosos sobre astronomia e ecologia.
           </p>
           <div className={styles.imgRelogio}>
-            <img src="/images/localidades/relogio (1).jpg" alt="relogio (1)" />
-            <img src="/images/localidades/relogio (2).jpg" alt="relogio (2)" />
+            <img src={`${process.env.PUBLIC_URL}/images/localidades/relogio (1).jpg`} alt="relogio (1)" />
+            <img src={`${process.env.PUBLIC_URL}/images/localidades/relogio (2).jpg`} alt="relogio (2)" />
           </div>
         </div>
 
