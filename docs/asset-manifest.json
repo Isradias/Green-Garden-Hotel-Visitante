@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Green-Garden-Hotel-Visitante/static/css/main.9abfeb7c.css",
-    "main.js": "/Green-Garden-Hotel-Visitante/static/js/main.d3653268.js",
+    "main.js": "/Green-Garden-Hotel-Visitante/static/js/main.a6706f50.js",
     "index.html": "/Green-Garden-Hotel-Visitante/index.html",
     "main.9abfeb7c.css.map": "/Green-Garden-Hotel-Visitante/static/css/main.9abfeb7c.css.map",
-    "main.d3653268.js.map": "/Green-Garden-Hotel-Visitante/static/js/main.d3653268.js.map"
+    "main.a6706f50.js.map": "/Green-Garden-Hotel-Visitante/static/js/main.a6706f50.js.map"
   },
   "entrypoints": [
     "static/css/main.9abfeb7c.css",
-    "static/js/main.d3653268.js"
+    "static/js/main.a6706f50.js"
   ]
 }

@@ -61,8 +61,8 @@ function Albazonia() {
             com produtos orgânicos da região.
           </p>
           <div className={styles.imgJardim}>
-            <img src={`${process.env.PUBLIC_URL}/images/localidades/jardim (1).jpg`} alt="jardim (1)" />
-            <img src={`${process.env.PUBLIC_URL}/images/localidades/jardim (2).jpg`} alt="jardim (2)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/jardim (1).jpg`} alt="jardim (1)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/jardim (2).jpg`} alt="jardim (2)" />
           </div>
         </div>
 

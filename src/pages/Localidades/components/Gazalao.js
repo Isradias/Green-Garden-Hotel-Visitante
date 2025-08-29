@@ -54,8 +54,8 @@ function Gazalao() {
             crianças e turistas curiosos sobre astronomia e ecologia.
           </p>
           <div className={styles.imgRelogio}>
-            <img src={`${process.env.PUBLIC_URL}/images/localidades/relogio (1).jpg`} alt="relogio (1)" />
-            <img src={`${process.env.PUBLIC_URL}/images/localidades/relogio (2).jpg`} alt="relogio (2)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/relogio (1).jpg`} alt="relogio (1)" />
+            <img src={`${process.env.PUBLIC_URL}/images/Localidades/relogio (2).jpg`} alt="relogio (2)" />
           </div>
         </div>
 
