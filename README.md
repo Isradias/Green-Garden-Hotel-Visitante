@@ -15,7 +15,7 @@ Este projeto é um site desenvolvido com React como parte de um trabalho acadêm
 - **React Router DOM** (para navegação entre páginas)
 - **CSS Modules**
 
-<img width="1920" height="2507" alt="Image" src="https://github.com/user-attachments/assets/a2b05e66-2cda-4e3f-a419-8aea9d53ce1c" />
-
 ## Link do site no github
 https://isradias.github.io/Green-Garden-Hotel-Visitante/#/
+
+<img width="1920" height="2507" alt="Image" src="https://github.com/user-attachments/assets/a2b05e66-2cda-4e3f-a419-8aea9d53ce1c" />
