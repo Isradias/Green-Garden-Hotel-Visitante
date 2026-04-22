@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10% 5%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.container h1{
+    font-size: 2.5vw;
+}
+
+.container h2{
+    font-size:67px;
+    margin: 0;
+}
+
+.container h3{
+    color: rgb(112, 112, 112);
+}
+
+.container img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgSantuario {
+    display: grid;
+    grid-template-rows: 1fr min-content;
+    gap: 10px;
+    grid-auto-flow: column;
+}
+
+.imgSantuario img:nth-child(1){
+    grid-row: span 2;
+    height: 800px;
+}
+
+.imgSantuario img{
+    height: 390px
+}
+
+.imgMuseu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.imgMuseu img{
+    height: 600px;
+}
+
+.imgMuseu img:nth-child(1){
+    grid-column: span 2;
+    height: 600px;
+}
+
+.imgLagoa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.imgLagoa img{
+    height: 500px;
+}

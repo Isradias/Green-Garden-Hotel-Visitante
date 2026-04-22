@@ -1,0 +1,52 @@
+.container1{
+    margin: 2vw 2vw 100px 2vw;
+}
+
+.conheca{
+    text-align: start;
+    font-size: 32px;
+    color: rgb(75, 75, 75);
+    margin: 0;
+}
+
+.container2{
+    margin: 4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.quarto img{
+    max-width: 90%;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.quarto:nth-child(odd) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+
+.quarto:nth-child(odd) h1{
+    grid-column: span 2;
+}
+
+.quarto:nth-child(even) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+
+.quarto:nth-child(even) h1{
+    grid-column: span 2;
+    text-align: right;
+}
+
+.quarto p{
+    font-size: 1.4vw;
+}
+
+.quarto h1{
+    font-size: 2vw;
+}
